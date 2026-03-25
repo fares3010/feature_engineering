@@ -29,6 +29,7 @@ import pandas as pd
 from featurewiz_pro import FeatureEngineer
 
 df  = pd.read_csv("train.csv")
+df = df.sample(frac=0.15, random_state=random_state)     # dont use the whole data , just sample
 fe  = FeatureEngineer(df, target="Churn", task="classification")
 
 fe.run_all()                     # runs all 7 phases
