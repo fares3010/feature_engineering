@@ -9,7 +9,7 @@ description = "A comprehensive 7-phase feature engineering toolkit for tabular d
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "Fares Ashraf", email = "farsashraf44@gmail.com" }
 ]
 keywords = [
     "feature engineering",
@@ -65,10 +65,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage      = "https://github.com/yourname/featurewiz-pro"
-Documentation = "https://github.com/yourname/featurewiz-pro#readme"
-Repository    = "https://github.com/yourname/featurewiz-pro"
-Issues        = "https://github.com/yourname/featurewiz-pro/issues"
+Homepage      = "https://github.com/fares3010/feature_engineering"
+Documentation = "https://github.com/fares3010/feature_engineering#readme"
+Repository    = "https://github.com/fares3010/feature_engineering"
+Issues        = "https://github.com/fares3010/feature_engineering/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
